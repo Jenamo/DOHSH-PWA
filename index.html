@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+      margin-bottom: 25px;
+      line-height: 1.8;
+      opacity: 0.9;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      text-decoration: none;
+      background: white;
+      color: black;
+      padding: 16px;
+      margin-bottom: 15px;
+      border-radius: 14px;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.02);
+    }
+
+    .footer {
+      margin-top: 25px;
+      opacity: 0.6;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="logo">D</div>
+
+    <h1>Doris Kehinana</h1>
+    <h2>Founder & CEO</h2>
+
+    <div class="info">
+      <div>📧 doris@dohsh.co.bw</div>
+      <div>📞 +267 747 267 33</div>
+    </div>
+
+    <a class="button" href="https://www.dohsh.co.bw" target="_blank">
+      Visit Website
+    </a>
+
+    <a class="button" href="https://openhive.pythonanywhere.com/" target="_blank">
+      Visit DOHSH Portal
+    </a>
+
+    <a class="button" href="mailto:doris@dohsh.co.bw">
+      Send Email
+    </a>
+
+    <a class="button" href="tel:+26774726733">
+      Call Now
+    </a>
+
+    <div class="footer">
+      DOHSH Digital Business Card
+    </div>
+
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+
+</body>
+</html>
