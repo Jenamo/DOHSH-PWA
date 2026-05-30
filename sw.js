@@ -3,7 +3,7 @@ const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './profile.png'
+  './profile.jpg'
 ];
 
 // Install Service Worker
